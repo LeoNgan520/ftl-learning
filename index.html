@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f2e9">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>FTL · 學會看懂系統</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到內容</a>
+  <header class="masthead">
+    <a class="wordmark" href="#home" aria-label="FTL 首頁">ftl<span class="brand-dot"></span></a>
+    <div id="connection" class="connection">正在準備</div>
+  </header>
+  <main id="main" tabindex="-1"><div class="loading"><h1>準備你的學習空間</h1><p>首次開啟會下載完整教材；以後可離線使用。</p></div></main>
+  <nav class="nav" aria-label="主要功能">
+    <a href="#home" data-page="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 12 4l8 7v9h-6v-6h-4v6H4Z"/></svg><span>學習</span></a>
+    <a href="#library" data-page="library"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v16H4Zm9 0h3v16h-3Zm5 1 3-1 3 15-3 1Z"/></svg><span>教材</span></a>
+    <a href="#progress" data-page="progress"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v16H5Z M8 2v6m8-6v6M8 12h8m-8 4h5"/></svg><span>紀錄</span></a>
+    <a href="#practice" data-page="practice"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2-6M4 3v6h6"/></svg><span>溫習</span></a>
+    <a href="#review" data-page="review"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 15v6h16v-6"/></svg><span>AI 回顧</span></a>
+  </nav>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>FTL 需要 JavaScript 才能保存作答及離線學習。</noscript>
+</body>
+</html>

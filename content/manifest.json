@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "libraryVersion": "1.1.0",
+  "minAppVersion": "1.1.0",
+  "url": "./content/core-1.1.0.json",
+  "sha256": "9583743985bdb08b84ee69aa24925d1d7c12020a73b4107b5a64c3f04f552742",
+  "bytes": 349808,
+  "releasedAt": "2026-10-02",
+  "changes": "完整 core：23 個主題、起點／中途／最終評估；情境、三層提示、分析、自評及工程交接問題。"
+}
